@@ -4,6 +4,12 @@
 2. Determine the lowest possible cost among all combinations.
 3. Calculate the number of combinations that lead to the lowest cost.
 
+## Table of Content
+- [Specification](#specification)
+- [Lexicographic Algorithm](#lexicographic-algorithm)
+- [Simulate Waveform](#simulate-waveform)
+  
+
 ## Specification
 
 | Signal Name | I/O | Width | Sample Description |
@@ -24,3 +30,10 @@ Given a sequence (jobs), obtain all permutations of it in sorted order. For exam
 2. Find the smallest number greater than the replacement number and then replace the replacement point with this minimum number. In the sequence, the smallest number larger than 2 is 3. Therefore, exchanging 2 and 3 in the sequence results in [9, 1, 4, 6, 3, 2]
 3. Finally, reverse the sequence to the right of the replacement point to get the next sequence.
 4. The termination condition for the algorithm arises when no permutation can be found, which happens when the sequence is already arranged in descending order.
+
+## Simulate Waveform
+<p align="center">
+  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/wave.png" width="1500" height="320" alt="wave">
+  <br> <strong>Fig2. Simulate Waveform</strong>
+</p> 
+
