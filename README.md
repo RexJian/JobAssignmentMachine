@@ -33,7 +33,7 @@ Given a sequence (jobs), obtain all permutations of it in sorted order. For exam
 
 ## Simulate Waveform
 <p align="center">
-  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/wave.png" width="1500" height="320" alt="wave">
+  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/wave.png" width="2000" height="320" alt="wave">
   <br> <strong>Fig2. Simulate Waveform</strong>
 </p> 
 
