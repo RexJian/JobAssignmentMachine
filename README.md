@@ -32,8 +32,20 @@ Given a sequence (jobs), obtain all permutations of it in sorted order. For exam
 4. The termination condition for the algorithm arises when no permutation can be found, which happens when the sequence is already arranged in descending order.
 
 ## Simulate Waveform
-<p align="center">
-  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/wave.png" width="2000" height="320" alt="wave">
-  <br> <strong>Fig2. Simulate Waveform</strong>
+<strong> Step1: </strong>  
+After the RST signal begins at 0, load the work and job order.
+<p align="left">
+  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/Wave/wave1.png" width="1000" height="160" alt="wave">
 </p> 
 
+<strong> Step2:</strong>  
+If the work order and job order loads end, use the lexicographic algorithm to sort the job order. Besides, if the total order cost is less than Mincost, both MinCost and MatchCount would be updated.
+<p align="left">
+  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/Wave/wave2.png" width="1000" height="160" alt="wave">
+</p> 
+
+<strong> Step3:</strong>  
+After all combinations of job orders have been loaded, the valid signal would be 1.
+<p align="left">
+  <img src="https://github.com/RexJian/JobAssignmentMachine/blob/main/Wave/wave3.png" width="1000" height="160" alt="wave">
+</p> 
